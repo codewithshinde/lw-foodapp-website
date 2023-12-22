@@ -818,10 +818,10 @@ export default (() => {
 					sizes="(max-width: 460px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 				<SocialMedia
-					facebook="https://www.facebook.com/quarklyapp/"
-					twitter="https://twitter.com/quarklyapp"
-					telegram="https://t.me/joinchat/DqSYDhS0R9nMRvOtFbIxrQ"
-					instagram="https://www.instagram.com/instagram/"
+					facebook="#"
+					twitter="#"
+					telegram="#"
+					instagram="#"
 					align-items="flex-start"
 					justify-content="flex-start"
 				>
@@ -1031,28 +1031,6 @@ export default (() => {
 				</Link>
 			</Box>
 		</Section>
-		<Link
-			font={"--capture"}
-			font-size={"10px"}
-			position={"fixed"}
-			bottom={"12px"}
-			right={"12px"}
-			z-index={"4"}
-			border-radius={"4px"}
-			padding={"5px 12px 4px"}
-			background-color={"--dark"}
-			opacity={"0.6"}
-			hover-opacity={"1"}
-			color={"--light"}
-			cursor={"pointer"}
-			transition={"--opacityOut"}
-			quarkly-title={"Badge"}
-			text-decoration-line={"initial"}
-			href={"https://quarkly.io/"}
-			target={"_blank"}
-		>
-			Made on Quarkly
-		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"6123949e957019001e284456"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
