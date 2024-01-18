@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://therasafoods.netlify.app/sitemap-index.xml
+Sitemap: https://tharasafoods.netlify.app/sitemap-index.xml

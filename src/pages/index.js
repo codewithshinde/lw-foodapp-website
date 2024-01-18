@@ -29,7 +29,14 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/6123949e957019001e284458/images/favicon270.svg?v=2021-09-21T16:18:07.731Z"} />
 			<meta name={"msapplication-TileColor"} content={"#000848"} />
 		</Helmet>
-		<Section sm-padding="8px 0 8px 0" quarkly-title="Header-5" color="#fff" background="rgb(44, 0, 81)">
+		<Section
+			sm-padding="8px 0 8px 0"
+			quarkly-title="Header-5"
+			color="#fff"
+			background="rgb(44, 0, 81)"
+			position="fixed"
+			z-index="150"
+		>
 			<Override slot="SectionContent" flex-direction="row" justify-content="space-between" />
 			<Box
 				display="flex"
@@ -292,8 +299,9 @@ export default (() => {
 					display="block"
 					align-self="auto"
 					order="0"
-					flex="1 1 0%"
+					flex="0 1 auto"
 					height="300px"
+					width="400px"
 					srcSet="https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=3200 3200w"
 					sizes="(max-width: 460px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
@@ -302,7 +310,7 @@ export default (() => {
 					lg-font="normal 700 40px/1.2 &quot;Inter&quot;, sans-serif"
 					md-font="normal 700 28px/1.2 &quot;Inter&quot;, sans-serif"
 					margin="0px 0px 16px 0px"
-					font="--headline1"
+					font="--headline3"
 					color="--indigo"
 					sm-font="normal 500 30px/1.2 &quot;Inter&quot;, sans-serif"
 				>
@@ -368,8 +376,17 @@ export default (() => {
 						size="48px"
 						width="100px"
 						height="100px"
+						order="0"
+						align-self="center"
 					/>
-					<Text margin="0px 0px 18px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
+					<Text
+						margin="0px 0px 18px 0px"
+						color="--darkL2"
+						font="--headline4"
+						lg-text-align="left"
+						align-self="auto"
+						order="0"
+					>
 						Drive more profits
 						<br />
 						{"\n\n"}
@@ -402,8 +419,9 @@ export default (() => {
 						size="48px"
 						width="100px"
 						height="100px"
+						align-self="center"
 					/>
-					<Text margin="0px 0px 18px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
+					<Text margin="0px 0px 18px 0px" color="--darkL2" font="--headline4" lg-text-align="left">
 						Enjoy choice and flexibility{" "}
 						<br />
 						{"\n\n"}
@@ -436,8 +454,9 @@ export default (() => {
 						size="48px"
 						width="100px"
 						height="100px"
+						align-self="center"
 					/>
-					<Text margin="0px 0px 18px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
+					<Text margin="0px 0px 18px 0px" color="--darkL2" font="--headline4" lg-text-align="left">
 						Get dedicated support
 						<br />
 						{"\n\n"}
@@ -452,6 +471,211 @@ export default (() => {
 						Get support whenever you need it, including 24/7 live order support via phone and chat lines, account help, and direct communication with assigned drivers.{"\n\n"}
 					</Text>
 				</Box>
+			</Box>
+		</Section>
+		<Section padding="60px 0 100px 0" md-padding="60px 0 60px 0">
+			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
+			<Box
+				empty-border-style="solid"
+				empty-border-color="LightGray"
+				justify-content="center"
+				align-items="flex-start"
+				flex-direction="column"
+				width="100%"
+				empty-min-width="64px"
+				empty-min-height="64px"
+				empty-border-width="1px"
+				display="flex"
+			>
+				<Text
+					margin="0px 0px 38px 0px"
+					font="--headline2"
+					color="--indigo"
+					md-font="normal 700 20px/1.2 &quot;Inter&quot;, sans-serif"
+					lg-font="normal 700 34px/1.2 &quot;Inter&quot;, sans-serif"
+					text-align="left"
+				>
+					Latest User Reviews
+				</Text>
+				<Hr
+					border-style="solid"
+					margin="0px 0px 0px 0px"
+					height="0px"
+					lg-display="none"
+					width="100%"
+					border-color="rgba(66, 82, 207, 0.1)"
+					border-width="2px 0 0 0"
+				/>
+			</Box>
+			<Box
+				flex-direction="column"
+				justify-content="flex-start"
+				border-width="0px 1px 0px 0px"
+				md-padding="32px 16px 16px 16px"
+				width="25%"
+				max-height="550px"
+				display="flex"
+				align-items="center"
+				sm-justify-content="flex-start"
+				lg-justify-content="flex-start"
+				md-align-items="center"
+				border-color="rgba(66, 82, 207, 0.1)"
+				height="100%"
+				md-width="50%"
+				sm-margin="0px 0px 30px 0px"
+				border-style="solid"
+				lg-padding="32px 16px 16px 16px"
+				lg-min-height="298px"
+				md-justify-content="flex-start"
+				sm-padding="32px 16px 16px 16px"
+				margin="0px 0px 0px 0px"
+				padding="16px 32px 16px 16px"
+			>
+				<Image
+					object-fit="cover"
+					border-radius="50%"
+					object-position="0% 0%"
+					width="80px"
+					height="80px"
+					margin="0px 0px 8px 0px"
+					src="https://uploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-53-01-64_1c337646f29875672b5a61192b9010f9.jpg?v=2024-01-18T03:33:47.187Z"
+					srcSet="https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-53-01-64_1c337646f29875672b5a61192b9010f9.jpg?v=2024-01-18T03%3A33%3A47.187Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-53-01-64_1c337646f29875672b5a61192b9010f9.jpg?v=2024-01-18T03%3A33%3A47.187Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-53-01-64_1c337646f29875672b5a61192b9010f9.jpg?v=2024-01-18T03%3A33%3A47.187Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-53-01-64_1c337646f29875672b5a61192b9010f9.jpg?v=2024-01-18T03%3A33%3A47.187Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-53-01-64_1c337646f29875672b5a61192b9010f9.jpg?v=2024-01-18T03%3A33%3A47.187Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-53-01-64_1c337646f29875672b5a61192b9010f9.jpg?v=2024-01-18T03%3A33%3A47.187Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-53-01-64_1c337646f29875672b5a61192b9010f9.jpg?v=2024-01-18T03%3A33%3A47.187Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 460px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
+				/>
+				<Text margin="0px 0px 8px 0px" font="--lead" color="--indigo" sm-text-align="center" />
+				<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" lg-font="400 14px/1.6 &quot;Inter&quot;, sans-serif">
+					THARASA FOOD ADDA is an amazing food delivery alapp that I've been using for a while now. It's super convenient and has a wide range of restaurants to choose from. The user interface is really intuitive, making it easy to find and order delicious food. I would definitely recommend..{"\n\n"}
+				</Text>
+			</Box>
+			<Box
+				padding="16px 32px 16px 32px"
+				border-width="0px 1px 0px 1px"
+				width="25%"
+				md-align-items="center"
+				align-items="center"
+				flex-direction="column"
+				border-style="solid"
+				border-color="rgba(66, 82, 207, 0.1)"
+				lg-padding="32px 16px 16px 16px"
+				lg-min-height="298px"
+				md-border-width="0px 0px 0px 1px"
+				md-justify-content="flex-start"
+				sm-justify-content="flex-start"
+				md-padding="32px 16px 16px 16px"
+				max-height="550px"
+				display="flex"
+				justify-content="flex-start"
+				margin="0px 0px 0px 0px"
+				sm-margin="0px 0px 30px 0px"
+				height="100%"
+				lg-justify-content="flex-start"
+				sm-padding="32px 16px 16px 16px"
+				md-width="50%"
+			>
+				<Image
+					object-position="0% 0%"
+					width="80px"
+					height="80px"
+					margin="0px 0px 8px 0px"
+					src="https://uploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-03-33-35_1c337646f29875672b5a61192b9010f9.jpg?v=2024-01-18T03:33:47.172Z"
+					object-fit="cover"
+					border-radius="50%"
+					srcSet="https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-03-33-35_1c337646f29875672b5a61192b9010f9.jpg?v=2024-01-18T03%3A33%3A47.172Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-03-33-35_1c337646f29875672b5a61192b9010f9.jpg?v=2024-01-18T03%3A33%3A47.172Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-03-33-35_1c337646f29875672b5a61192b9010f9.jpg?v=2024-01-18T03%3A33%3A47.172Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-03-33-35_1c337646f29875672b5a61192b9010f9.jpg?v=2024-01-18T03%3A33%3A47.172Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-03-33-35_1c337646f29875672b5a61192b9010f9.jpg?v=2024-01-18T03%3A33%3A47.172Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-03-33-35_1c337646f29875672b5a61192b9010f9.jpg?v=2024-01-18T03%3A33%3A47.172Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-03-33-35_1c337646f29875672b5a61192b9010f9.jpg?v=2024-01-18T03%3A33%3A47.172Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 460px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
+				/>
+				<Text font="--lead" color="--indigo" sm-text-align="center" margin="0px 0px 8px 0px" />
+				<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" lg-font="400 14px/1.6 &quot;Inter&quot;, sans-serif">
+					I recently tried THARASA FOOD ADDA for the first time, and I must express my satisfaction! The app's user-friendly interface facilitated smooth navigation across a diverse range of restaurants, while the extensive menu options allowed me to explore new culinary delights. The real-time order tracking kept me informed, and the prompt delivery added to the overall positive experience. meals.{"\n\n"}
+				</Text>
+			</Box>
+			<Hr
+				display="none"
+				width="100%"
+				border-color="rgba(66, 82, 207, 0.1)"
+				border-style="solid"
+				margin="0px 16px 32px 16px"
+				md-margin="16px 16px 16px 16px"
+				md-display="block"
+				border-width="2px 0 0 0"
+				height="0px"
+			/>
+			<Box
+				border-color="rgba(66, 82, 207, 0.1)"
+				md-justify-content="flex-start"
+				sm-margin="0px 0px 30px 0px"
+				padding="16px 32px 16px 32px"
+				border-style="solid"
+				lg-padding="32px 16px 16px 16px"
+				sm-padding="32px 16px 16px 16px"
+				border-width="0px 1px 0px 1px"
+				lg-min-height="298px"
+				md-border-width="0px 1px 0px 0px"
+				display="flex"
+				align-items="center"
+				flex-direction="column"
+				justify-content="flex-start"
+				margin="0px 0px 0px 0px"
+				height="100%"
+				width="25%"
+				md-width="50%"
+				lg-justify-content="flex-start"
+				md-align-items="center"
+				sm-justify-content="flex-start"
+				md-padding="32px 16px 16px 16px"
+				max-height="550px"
+			>
+				<Image
+					src="https://uploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-11-24-08-29-11-49_6012fa4d4ddec268fc5c7112cbb265e7.jpg?v=2024-01-18T03:33:50.266Z"
+					object-fit="cover"
+					border-radius="50%"
+					width="80px"
+					height="80px"
+					margin="0px 0px 8px 0px"
+					srcSet="https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-11-24-08-29-11-49_6012fa4d4ddec268fc5c7112cbb265e7.jpg?v=2024-01-18T03%3A33%3A50.266Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-11-24-08-29-11-49_6012fa4d4ddec268fc5c7112cbb265e7.jpg?v=2024-01-18T03%3A33%3A50.266Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-11-24-08-29-11-49_6012fa4d4ddec268fc5c7112cbb265e7.jpg?v=2024-01-18T03%3A33%3A50.266Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-11-24-08-29-11-49_6012fa4d4ddec268fc5c7112cbb265e7.jpg?v=2024-01-18T03%3A33%3A50.266Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-11-24-08-29-11-49_6012fa4d4ddec268fc5c7112cbb265e7.jpg?v=2024-01-18T03%3A33%3A50.266Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-11-24-08-29-11-49_6012fa4d4ddec268fc5c7112cbb265e7.jpg?v=2024-01-18T03%3A33%3A50.266Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-11-24-08-29-11-49_6012fa4d4ddec268fc5c7112cbb265e7.jpg?v=2024-01-18T03%3A33%3A50.266Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 460px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
+				/>
+				<Text margin="0px 0px 8px 0px" font="--lead" color="--indigo" sm-text-align="center" />
+				<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" lg-font="400 14px/1.6 &quot;Inter&quot;, sans-serif">
+					THARASA FOOD ADD Best application for any Non-IT person as its very user-friendly application where everyone can easily order their food online, with good offers also friendly and polite riders...{"\n\n"}
+				</Text>
+			</Box>
+			<Box
+				align-items="center"
+				padding="16px 32px 16px 32px"
+				border-width="0px 0px 0px 1px"
+				lg-padding="32px 16px 16px 16px"
+				lg-min-height="298px"
+				height="100%"
+				md-align-items="center"
+				width="25%"
+				max-height="550px"
+				md-width="50%"
+				margin="0px 0px 0px 0px"
+				border-color="rgba(66, 82, 207, 0.1)"
+				lg-justify-content="flex-start"
+				sm-padding="32px 16px 16px 16px"
+				display="flex"
+				sm-justify-content="flex-start"
+				flex-direction="column"
+				sm-margin="0px 0px 30px 0px"
+				border-style="solid"
+				md-justify-content="flex-start"
+				md-padding="32px 16px 16px 16px"
+			>
+				<Image
+					width="80px"
+					height="80px"
+					margin="0px 0px 8px 0px"
+					src="https://uploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-24-02-66_6012fa4d4ddec268fc5c7112cbb265e7.jpg?v=2024-01-18T03:33:47.195Z"
+					object-fit="cover"
+					border-radius="50%"
+					srcSet="https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-24-02-66_6012fa4d4ddec268fc5c7112cbb265e7.jpg?v=2024-01-18T03%3A33%3A47.195Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-24-02-66_6012fa4d4ddec268fc5c7112cbb265e7.jpg?v=2024-01-18T03%3A33%3A47.195Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-24-02-66_6012fa4d4ddec268fc5c7112cbb265e7.jpg?v=2024-01-18T03%3A33%3A47.195Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-24-02-66_6012fa4d4ddec268fc5c7112cbb265e7.jpg?v=2024-01-18T03%3A33%3A47.195Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-24-02-66_6012fa4d4ddec268fc5c7112cbb265e7.jpg?v=2024-01-18T03%3A33%3A47.195Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-24-02-66_6012fa4d4ddec268fc5c7112cbb265e7.jpg?v=2024-01-18T03%3A33%3A47.195Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/Screenshot_2023-12-18-07-24-02-66_6012fa4d4ddec268fc5c7112cbb265e7.jpg?v=2024-01-18T03%3A33%3A47.195Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 460px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
+				/>
+				<Text margin="0px 0px 8px 0px" font="--lead" color="--indigo" sm-text-align="center" />
+				<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" lg-font="400 14px/1.6 &quot;Inter&quot;, sans-serif">
+					.THARASA FOOD ADDA is a good platform for online food ordering and delivery from a variety of local restaurants. THARASA FOOD ADDA offers a variety of features; the quality of food,and good service ...{"\n\n"}
+				</Text>
 			</Box>
 		</Section>
 		<Section padding="80px 0 80px 0" sm-padding="60px 0px 60px 0px">
@@ -581,219 +805,6 @@ export default (() => {
 				/>
 			</Box>
 		</Section>
-		<Section padding="60px 0 100px 0" md-padding="60px 0 60px 0">
-			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
-			<Box
-				empty-border-style="solid"
-				empty-border-color="LightGray"
-				justify-content="center"
-				align-items="flex-start"
-				flex-direction="column"
-				width="100%"
-				empty-min-width="64px"
-				empty-min-height="64px"
-				empty-border-width="1px"
-				display="flex"
-			>
-				<Text
-					margin="0px 0px 38px 0px"
-					font="--headline2"
-					color="--indigo"
-					md-font="normal 700 20px/1.2 &quot;Inter&quot;, sans-serif"
-					lg-font="normal 700 34px/1.2 &quot;Inter&quot;, sans-serif"
-					text-align="left"
-				>
-					Latest User Reviews
-				</Text>
-				<Hr
-					border-style="solid"
-					margin="0px 0px 0px 0px"
-					height="0px"
-					lg-display="none"
-					width="100%"
-					border-color="rgba(66, 82, 207, 0.1)"
-					border-width="2px 0 0 0"
-				/>
-			</Box>
-			<Box
-				flex-direction="column"
-				justify-content="flex-start"
-				border-width="0px 1px 0px 0px"
-				md-padding="32px 16px 16px 16px"
-				width="25%"
-				max-height="265px"
-				display="flex"
-				align-items="center"
-				sm-justify-content="flex-start"
-				lg-justify-content="flex-start"
-				md-align-items="center"
-				border-color="rgba(66, 82, 207, 0.1)"
-				height="100%"
-				md-width="50%"
-				sm-margin="0px 0px 30px 0px"
-				border-style="solid"
-				lg-padding="32px 16px 16px 16px"
-				lg-min-height="298px"
-				md-justify-content="flex-start"
-				sm-padding="32px 16px 16px 16px"
-				margin="0px 0px 0px 0px"
-				padding="16px 32px 16px 16px"
-			>
-				<Image
-					object-fit="cover"
-					border-radius="50%"
-					object-position="0% 0%"
-					width="80px"
-					height="80px"
-					margin="0px 0px 8px 0px"
-					src="https://images.unsplash.com/photo-1594194610831-c3f92ec62180?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=228&q=80"
-					srcSet="https://images.unsplash.com/photo-1594194610831-c3f92ec62180?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80 500w,https://images.unsplash.com/photo-1594194610831-c3f92ec62180?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 800w,https://images.unsplash.com/photo-1594194610831-c3f92ec62180?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80 1080w,https://images.unsplash.com/photo-1594194610831-c3f92ec62180?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80 1600w,https://images.unsplash.com/photo-1594194610831-c3f92ec62180?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80 2000w,https://images.unsplash.com/photo-1594194610831-c3f92ec62180?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2600&q=80 2600w,https://images.unsplash.com/photo-1594194610831-c3f92ec62180?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3200&q=80 3200w"
-					sizes="(max-width: 460px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
-				/>
-				<Text margin="0px 0px 8px 0px" font="--lead" color="--indigo" sm-text-align="center">
-					John B.
-				</Text>
-				<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" lg-font="400 14px/1.6 &quot;Inter&quot;, sans-serif">
-					I like the app! The doctors are very helpful and friendly. I've saved a lot on the trip and hospital bills.
-				</Text>
-			</Box>
-			<Box
-				padding="16px 32px 16px 32px"
-				border-width="0px 1px 0px 1px"
-				width="25%"
-				md-align-items="center"
-				align-items="center"
-				flex-direction="column"
-				border-style="solid"
-				border-color="rgba(66, 82, 207, 0.1)"
-				lg-padding="32px 16px 16px 16px"
-				lg-min-height="298px"
-				md-border-width="0px 0px 0px 1px"
-				md-justify-content="flex-start"
-				sm-justify-content="flex-start"
-				md-padding="32px 16px 16px 16px"
-				max-height="265px"
-				display="flex"
-				justify-content="flex-start"
-				margin="0px 0px 0px 0px"
-				sm-margin="0px 0px 30px 0px"
-				height="100%"
-				lg-justify-content="flex-start"
-				sm-padding="32px 16px 16px 16px"
-				md-width="50%"
-			>
-				<Image
-					object-position="0% 0%"
-					width="80px"
-					height="80px"
-					margin="0px 0px 8px 0px"
-					src="https://images.unsplash.com/photo-1552452518-f921c926b76b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=272&q=80"
-					object-fit="cover"
-					border-radius="50%"
-					srcSet="https://images.unsplash.com/photo-1552452518-f921c926b76b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80 500w,https://images.unsplash.com/photo-1552452518-f921c926b76b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80 800w,https://images.unsplash.com/photo-1552452518-f921c926b76b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=80 1080w,https://images.unsplash.com/photo-1552452518-f921c926b76b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1600&q=80 1600w,https://images.unsplash.com/photo-1552452518-f921c926b76b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=80 2000w,https://images.unsplash.com/photo-1552452518-f921c926b76b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2600&q=80 2600w,https://images.unsplash.com/photo-1552452518-f921c926b76b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3200&q=80 3200w"
-					sizes="(max-width: 460px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
-				/>
-				<Text font="--lead" color="--indigo" sm-text-align="center" margin="0px 0px 8px 0px">
-					Bob W.
-				</Text>
-				<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" lg-font="400 14px/1.6 &quot;Inter&quot;, sans-serif">
-					I got professional help and my prescription quite fast. The app is awesome. The doctors are real pros!
-				</Text>
-			</Box>
-			<Hr
-				display="none"
-				width="100%"
-				border-color="rgba(66, 82, 207, 0.1)"
-				border-style="solid"
-				margin="0px 16px 32px 16px"
-				md-margin="16px 16px 16px 16px"
-				md-display="block"
-				border-width="2px 0 0 0"
-				height="0px"
-			/>
-			<Box
-				border-color="rgba(66, 82, 207, 0.1)"
-				md-justify-content="flex-start"
-				sm-margin="0px 0px 30px 0px"
-				padding="16px 32px 16px 32px"
-				border-style="solid"
-				lg-padding="32px 16px 16px 16px"
-				sm-padding="32px 16px 16px 16px"
-				border-width="0px 1px 0px 1px"
-				lg-min-height="298px"
-				md-border-width="0px 1px 0px 0px"
-				display="flex"
-				align-items="center"
-				flex-direction="column"
-				justify-content="flex-start"
-				margin="0px 0px 0px 0px"
-				height="100%"
-				width="25%"
-				md-width="50%"
-				lg-justify-content="flex-start"
-				md-align-items="center"
-				sm-justify-content="flex-start"
-				md-padding="32px 16px 16px 16px"
-				max-height="265px"
-			>
-				<Image
-					src="https://images.unsplash.com/photo-1563306406-e66174fa3787?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=274&q=80"
-					object-fit="cover"
-					border-radius="50%"
-					width="80px"
-					height="80px"
-					margin="0px 0px 8px 0px"
-					srcSet="https://images.unsplash.com/photo-1563306406-e66174fa3787?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80 500w,https://images.unsplash.com/photo-1563306406-e66174fa3787?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 800w,https://images.unsplash.com/photo-1563306406-e66174fa3787?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80 1080w,https://images.unsplash.com/photo-1563306406-e66174fa3787?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80 1600w,https://images.unsplash.com/photo-1563306406-e66174fa3787?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80 2000w,https://images.unsplash.com/photo-1563306406-e66174fa3787?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2600&q=80 2600w,https://images.unsplash.com/photo-1563306406-e66174fa3787?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3200&q=80 3200w"
-					sizes="(max-width: 460px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
-				/>
-				<Text margin="0px 0px 8px 0px" font="--lead" color="--indigo" sm-text-align="center">
-					Natalie J.
-				</Text>
-				<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" lg-font="400 14px/1.6 &quot;Inter&quot;, sans-serif">
-					One of the best medical apps I've ever come across! Highly recommend to everyone.
-				</Text>
-			</Box>
-			<Box
-				align-items="center"
-				padding="16px 32px 16px 32px"
-				border-width="0px 0px 0px 1px"
-				lg-padding="32px 16px 16px 16px"
-				lg-min-height="298px"
-				height="100%"
-				md-align-items="center"
-				width="25%"
-				max-height="265px"
-				md-width="50%"
-				margin="0px 0px 0px 0px"
-				border-color="rgba(66, 82, 207, 0.1)"
-				lg-justify-content="flex-start"
-				sm-padding="32px 16px 16px 16px"
-				display="flex"
-				sm-justify-content="flex-start"
-				flex-direction="column"
-				sm-margin="0px 0px 30px 0px"
-				border-style="solid"
-				md-justify-content="flex-start"
-				md-padding="32px 16px 16px 16px"
-			>
-				<Image
-					width="80px"
-					height="80px"
-					margin="0px 0px 8px 0px"
-					src="https://images.unsplash.com/photo-1604004555489-723a93d6ce74?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
-					object-fit="cover"
-					border-radius="50%"
-					srcSet="https://images.unsplash.com/photo-1604004555489-723a93d6ce74?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80 500w,https://images.unsplash.com/photo-1604004555489-723a93d6ce74?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 800w,https://images.unsplash.com/photo-1604004555489-723a93d6ce74?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80 1080w,https://images.unsplash.com/photo-1604004555489-723a93d6ce74?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80 1600w,https://images.unsplash.com/photo-1604004555489-723a93d6ce74?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80 2000w,https://images.unsplash.com/photo-1604004555489-723a93d6ce74?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2600&q=80 2600w,https://images.unsplash.com/photo-1604004555489-723a93d6ce74?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3200&q=80 3200w"
-					sizes="(max-width: 460px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
-				/>
-				<Text margin="0px 0px 8px 0px" font="--lead" color="--indigo" sm-text-align="center">
-					Laura H.
-				</Text>
-				<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" lg-font="400 14px/1.6 &quot;Inter&quot;, sans-serif">
-					I got my meds so fast. Thank you a lot! You are a lifesaver.
-				</Text>
-			</Box>
-		</Section>
 		<Section background="rgb(44, 0, 81)" padding="100px 0 100px 0" md-padding="40px 0 40px 0">
 			<Override slot="SectionContent" flex-direction="row" md-flex-wrap="wrap" />
 			<Box
@@ -818,10 +829,10 @@ export default (() => {
 					sizes="(max-width: 460px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 				<SocialMedia
-					facebook="#"
-					twitter="#"
-					telegram="#"
-					instagram="#"
+					facebook="https://www.facebook.com/quarklyapp/"
+					twitter="https://twitter.com/quarklyapp"
+					telegram="https://t.me/joinchat/DqSYDhS0R9nMRvOtFbIxrQ"
+					instagram="https://www.instagram.com/instagram/"
 					align-items="flex-start"
 					justify-content="flex-start"
 				>
@@ -1031,6 +1042,28 @@ export default (() => {
 				</Link>
 			</Box>
 		</Section>
+		<Link
+			font={"--capture"}
+			font-size={"10px"}
+			position={"fixed"}
+			bottom={"12px"}
+			right={"12px"}
+			z-index={"4"}
+			border-radius={"4px"}
+			padding={"5px 12px 4px"}
+			background-color={"--dark"}
+			opacity={"0.6"}
+			hover-opacity={"1"}
+			color={"--light"}
+			cursor={"pointer"}
+			transition={"--opacityOut"}
+			quarkly-title={"Badge"}
+			text-decoration-line={"initial"}
+			href={"https://quarkly.io/"}
+			target={"_blank"}
+		>
+			Made on Quarkly
+		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"6123949e957019001e284456"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}

@@ -33,6 +33,6 @@ class UniqueSitemap extends Sitemap {
 
 (
     new UniqueSitemap(router())
-        .build('https://therasafoods.netlify.app')
+        .build('https://tharasafoods.netlify.app')
         .save('./public/sitemap-index.xml')
 );
