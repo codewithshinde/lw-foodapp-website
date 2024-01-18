@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "tharasafoodapp"
+  },
+  "targets": {
+    "tharasafoodapp": {
+      "hosting": {
+        "tharasafood-partner": [
+          "tharasafoodadda-partnerwithus"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

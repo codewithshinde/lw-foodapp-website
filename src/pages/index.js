@@ -1059,10 +1059,10 @@ export default (() => {
 			transition={"--opacityOut"}
 			quarkly-title={"Badge"}
 			text-decoration-line={"initial"}
-			href={"https://quarkly.io/"}
+			href={"#"}
 			target={"_blank"}
 		>
-			Made on Quarkly
+			Made on lightworks
 		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"6123949e957019001e284456"}>
