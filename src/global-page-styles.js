@@ -4,7 +4,10 @@ import { createGlobalStyle } from "styled-components";
 
 const pageStyles = {
     "404": {},
-    "index": {}
+    "index": {},
+    "privacy-policy": {},
+    "about-us": {},
+    "terms": {}
 };
 
 const PageStyles = createGlobalStyle`

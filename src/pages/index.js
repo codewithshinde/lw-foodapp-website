@@ -7,6 +7,8 @@ import { RawHtml, Override, SocialMedia } from "@quarkly/components";
 import * as Components from "components";
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineMenu } from "react-icons/ai";
+import { BsDot } from "react-icons/bs";
+import { TiArrowRight } from "react-icons/ti";
 import { FaChartBar } from "react-icons/fa";
 import { MdPhonelinkSetup } from "react-icons/md";
 import { GiRingingBell } from "react-icons/gi";
@@ -29,64 +31,25 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/6123949e957019001e284458/images/favicon270.svg?v=2021-09-21T16:18:07.731Z"} />
 			<meta name={"msapplication-TileColor"} content={"#000848"} />
 		</Helmet>
-		<Section
-			sm-padding="8px 0 8px 0"
-			quarkly-title="Header-5"
-			color="#fff"
-			background="rgb(44, 0, 81)"
-			position="fixed"
-			z-index="150"
-		>
-			<Override slot="SectionContent" flex-direction="row" justify-content="space-between" />
-			<Box
-				display="flex"
-				padding="12px 0"
-				justify-content="space-between"
-				align-items="flex-start"
+		<Section sm-padding="8px 0 8px 0" quarkly-title="Header-6" padding="24px 0px 24px 0px">
+			<Override
+				slot="SectionContent"
 				flex-direction="row"
-				width="30%"
-				sm-width="50%"
-				sm-align-items="center"
-				sm-flex-direction="row"
-				sm-justify-content="flex-start"
-				md-width="50%"
-				lg-width="70%"
-				md-justify-content="flex-start"
-			>
-				<LinkBox
-					flex-direction="row"
-					href="/index"
-					display="flex"
-					grid-gap="12px"
-					color="#fff"
-				>
-					<Image
-						src="https://uploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01:11:48.094Z"
-						display="block"
-						width="36px"
-						height="36px"
-						srcSet="https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=3200 3200w"
-						sizes="(max-width: 460px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
-					/>
-					<Text
-						margin="0"
-						md-margin="0px 0 0px 0"
-						text-align="left"
-						font="--lead"
-						sm-margin="0px 0 0px 0"
-						display="block"
-					>
-						THARASA FOOD ADDA
-					</Text>
-				</LinkBox>
-			</Box>
+				justify-content="space-between"
+				max-width="100%"
+				width="100%"
+				padding="0px 24px 0px 24px"
+			/>
 			<Components.QuarklycommunityKitMobileSidePanel
 				menuPosition="full"
 				breakpoint="lg"
-				width="70%"
+				width="40%"
 				sm-width="50%"
 				md-width="50%"
-				lg-width="30%"
+				lg-width="40%"
+				lg-justify-content="flex-start"
+				md-justify-content="flex-end"
+				onloadShow
 			>
 				<Override slot="Children" md-display="flex" />
 				<Override
@@ -135,8 +98,8 @@ export default (() => {
 				<Box
 					align-items="center"
 					lg-justify-content="center"
-					lg-align-items="flex-start"
-					justify-content="flex-end"
+					lg-align-items="flex-end"
+					justify-content="flex-start"
 					display="flex"
 					lg-flex-direction="column"
 					lg-margin="0px auto 0px auto"
@@ -153,7 +116,14 @@ export default (() => {
 						lg-padding="12px 0px 12px 0px"
 					>
 						<LinkBox flex-direction="row" href="/index" display="flex" grid-gap="12px">
-							<Image src="https://firebasestorage.googleapis.com/v0/b/hungrypanda-restaurant.appspot.com/o/application%2Flogo.png?alt=media&token=60c20f19-82dd-4b04-a45a-c94cee1d7eb2" display="block" width="36px" height="36px" />
+							<Image
+								src="https://uploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01:11:48.094Z"
+								display="block"
+								width="36px"
+								height="36px"
+								srcSet="https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=3200 3200w"
+								sizes="(max-width: 460px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
+							/>
 							<Text
 								margin="0"
 								md-margin="0px 0 0px 0"
@@ -161,7 +131,8 @@ export default (() => {
 								font="--lead"
 								sm-margin="0px 0 0px 0"
 								display="block"
-								lg-font="--lead"
+								lg-font="--headline3"
+								md-font="--headline4"
 							>
 								THARASAFOODADDA
 							</Text>
@@ -171,8 +142,8 @@ export default (() => {
 						display="flex"
 						filterMode="exclude"
 						filterPages="/index"
-						grid-gap="12px"
-						lg-flex-direction="column"
+						grid-gap="4px"
+						lg-flex-direction="row"
 						lg-padding="6px 0px 6px 0px"
 						lg-margin="0px 0px 24px 0px"
 						align-items="center"
@@ -192,7 +163,7 @@ export default (() => {
 						/>
 						<Override
 							slot="item-active"
-							border-width="0 0 2px 0"
+							border-width="0 0 1px 0"
 							border-style="solid"
 							border-color="--color-darkL2"
 							lg-border-width="0 0 0 2px"
@@ -201,35 +172,51 @@ export default (() => {
 						<Override slot="link-active" cursor="default" color="--darkL2" hover-color="--darkL2" />
 						<Override slot="link-about" />
 					</Components.QuarklycommunityKitMenu>
-					<Link
-						font="--base"
-						text-decoration-line="initial"
-						margin="0px 0px 0px 16px"
-						background="--color-light"
-						border-radius="8px"
-						href="#"
-						color="#000"
-						padding="6px 12px 7px 12px"
+					<Box
+						display="none"
+						padding="12px 0"
+						justify-content="flex-end"
+						align-items="flex-start"
+						flex-direction="row"
+						width="40%"
+						lg-width="100%"
+						md-justify-content="flex-start"
+						lg-justify-content="flex-start"
+						lg-padding="0px 0 12px 0"
+						lg-flex-direction="column"
 						lg-margin="0px 0px 24px 0px"
-						lg-padding="12px 18px 13px 18px"
-						lg-font="--lead"
-						onClick = {() => window.open("http://tharasafoodadda.asyncteam.in", "_blank")}
+						lg-display="flex"
+						lg-grid-gap="24px"
+						lg-align-items="flex-end"
 					>
-						
-						JOIN AS RESTAURANT PARTNER
-					</Link>
+						<Link
+							font="--base"
+							text-decoration-line="initial"
+							margin="0px 0px 0px 16px"
+							background="--color-darkL1"
+							border-radius="8px"
+							href="http://tharasafoodadda.asyncteam.in"
+							color="#ffffff"
+							padding="6px 12px 7px 12px"
+							lg-padding="12px 16px 12px 16px"
+							lg-font="--lead"
+							lg-margin="0px 0px 0px 0px"
+							target="_blank"
+						>
+							JOIN AS RESTAURANT PARTNER
+						</Link>
+					</Box>
 					<Box
 						width="25%"
 						display="none"
 						lg-width="100%"
 						lg-flex-direction="column"
-						lg-align-items="flex-start"
+						lg-align-items="flex-end"
 						lg-display="flex"
 						justify-content="space-around"
 						align-items="center"
 						flex-wrap="wrap"
-						lg-margin="32px 0px 0px 0px"
-						
+						lg-margin="24px 0px 0px 0px"
 					>
 						<SocialMedia
 							instagram="https://instagram.com/instagram"
@@ -263,73 +250,172 @@ export default (() => {
 					</Box>
 				</Box>
 			</Components.QuarklycommunityKitMobileSidePanel>
-		</Section>
-		<Section
-			background="url(https://images.unsplash.com/photo-1494859802809-d069c3b71a8a?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0%/cover"
-			padding="36px 0 80px 0"
-			quarkly-title="HeroBlock"
-			md-padding="36px 0 60px 0"
-			height="800px"
-		>
-			<Override
-				slot="SectionContent"
-				flex-direction="row"
-				position="relative"
-				z-index="9"
-				md-flex-wrap="wrap"
-				md-z-index="7"
-			/>
 			<Box
-				empty-min-width="64px"
-				empty-min-height="64px"
-				empty-border-width="1px"
-				empty-border-style="solid"
-				empty-border-color="LightGray"
-				flex-direction="column"
 				display="flex"
-				align-items="flex-start"
-				lg-padding="0px 90px 0px 0px"
-				md-width="100%"
+				padding="12px 0"
 				justify-content="center"
-				width="70%"
-				padding="0px 180px 0px 0px"
-				md-padding="0px 0px 0px 0px"
-				sm-height="500px"
-				md-height="600px"
+				align-items="flex-start"
+				flex-direction="row"
+				width="20%"
+				sm-width="50%"
+				sm-align-items="center"
+				sm-flex-direction="row"
+				sm-justify-content="flex-start"
+				md-width="50%"
+				lg-width="20%"
+				md-justify-content="flex-start"
+				md-order="-1"
 			>
-				<Image
-					src="https://uploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01:11:48.094Z"
-					display="block"
-					align-self="auto"
-					order="0"
-					flex="0 1 auto"
-					height="300px"
-					width="400px"
-					srcSet="https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=3200 3200w"
-					sizes="(max-width: 460px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
-				/>
-				<Text
-					lg-text-align="left"
-					lg-font="normal 700 40px/1.2 &quot;Inter&quot;, sans-serif"
-					md-font="normal 700 28px/1.2 &quot;Inter&quot;, sans-serif"
-					margin="0px 0px 16px 0px"
-					font="--headline3"
-					color="--indigo"
-					sm-font="normal 500 30px/1.2 &quot;Inter&quot;, sans-serif"
-				>
-					The right delivery partner for your business{"\n\n"}
-				</Text>
-				<Text
+				<LinkBox flex-direction="row" href="/index" display="flex" grid-gap="12px">
+					<Image
+						src="https://uploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01:11:48.094Z"
+						display="block"
+						width="50px"
+						height="50px"
+						srcSet="https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 460px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Text
+						margin="0"
+						md-margin="0px 0 0px 0"
+						text-align="left"
+						font="--lead"
+						sm-margin="0px 0 0px 0"
+						display="block"
+					>
+						THARASAFOODADDA
+					</Text>
+				</LinkBox>
+			</Box>
+			<Box
+				display="flex"
+				padding="12px 0"
+				justify-content="flex-end"
+				align-items="flex-start"
+				flex-direction="row"
+				width="40%"
+				sm-width="50%"
+				sm-align-items="center"
+				sm-flex-direction="row"
+				sm-justify-content="flex-start"
+				md-width="50%"
+				lg-width="40%"
+				md-justify-content="flex-start"
+				md-display="none"
+			>
+				<Link
 					font="--base"
-					lg-text-align="left"
-					lg-font="normal 400 16px/1.5 &quot;Inter&quot;, sans-serif"
-					md-font="normal 400 14px/1.5 &quot;Inter&quot;, sans-serif"
-					margin="0px 0px 0px 0px"
-					color="--indigo"
-					opacity="1"
+					text-decoration-line="initial"
+					margin="0px 0px 0px 16px"
+					background="--color-darkL1"
+					border-radius="8px"
+					md-margin="0px 0px 0px 14px"
+					href="http://tharasafoodadda.asyncteam.in"
+					color="#ffffff"
+					padding="6px 12px 7px 12px"
+					md-order="1"
+					target="_blank"
 				>
-					Connect with more customers and grow your business on your terms. Partner with us today{"\n\n"}
+					JOIN US
+				</Link>
+			</Box>
+		</Section>
+		<Box
+			width="100%"
+			display="flex"
+			align-items="center"
+			justify-content="center"
+			position="static"
+			padding="13px 0px 13px 0px"
+			top="0px"
+			quarkly-title="Banner-2"
+			background="linear-gradient(90deg, #ffd7c7,#ffd3ff,#ffffff);"
+			md-flex-direction="column"
+			md-display="flex"
+			md-grid-gap="8px"
+		>
+			<Text margin="0px 0px 0px 0px" font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro" color="--dark" md-text-align="center">
+				FoodCon 2024
+			</Text>
+			<Icon category="bs" icon={BsDot} size="16px" md-display="none" />
+			<Text margin="0px 0px 0px 0px" font="--base" color="--dark" md-text-align="center">
+				Order on FoodCon day to avail 0% Commission
+			</Text>
+			<LinkBox
+				color="--light"
+				margin="0px 0px 0px 16px"
+				text-decoration-line="initial"
+				text-transform="uppercase"
+				background="--color-dark"
+				font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+				padding="6px 16px 7px 16px"
+				border-radius="24px"
+				letter-spacing="0.3px"
+				flex-direction="row"
+				href="http://tharasafoodadda.asyncteam.in"
+				target="_blank"
+			>
+				<Text margin="0px 0px 1px 0px" text-transform="initial">
+					Register now
 				</Text>
+				<Icon category="ti" icon={TiArrowRight} size="24px" margin="0px 0px 0px 0px" />
+			</LinkBox>
+		</Box>
+		<Section padding="80px 0 90px 0" md-padding="60px 0 60px 0" background="linear-gradient(180deg,rgba(42, 9, 113, 0.7) 0%,rgba(12, 36, 127, 0.7) 100%) 0 0 no-repeat,rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 50% 0/cover repeat scroll padding-box" quarkly-title="Reviews-8">
+			<Override slot="SectionContent" md-padding="0px 0 0px 0" />
+			<Box
+				min-width="100px"
+				min-height="100px"
+				padding="30px 0 10px 0"
+				border-radius="8px"
+				margin="0px 20px 25px 20px"
+				display="flex"
+				flex-direction="row"
+				justify-content="space-between"
+				lg-margin="0px 0 25px 0px"
+				md-flex-direction="column"
+			>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					padding="0px 0px 0px 50px"
+					width="50%"
+					display="flex"
+					flex-direction="column"
+					justify-content="space-between"
+					md-width="100%"
+					md-padding="30px 0px 0px 0"
+				>
+					<Box min-width="100px" min-height="100px">
+						<Image
+							src="https://uploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01:11:48.094Z"
+							display="block"
+							width="80px"
+							srcSet="https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01%3A11%3A48.094Z&quality=85&w=3200 3200w"
+							sizes="(max-width: 460px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
+						/>
+						<Text margin="0px 0px 30px 0px" color="#e8e3e3" sm-margin="0px 0px 20px 0px" font="--base">
+							THARASA FOOD ADDA is a cutting-edge delivery service accessible through mobile applications, connecting customers with a diverse array of restaurants and retailers. Our platform provides a seamless experience for users to explore menus and food offerings, placing orders effortlessly and having them delivered directly to their doorstep.{"\n\n"}
+						</Text>
+					</Box>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						display="flex"
+						align-items="center"
+						md-min-width={0}
+						md-min-height={0}
+					>
+						<Box min-width="10px" min-height="10px">
+							<Text margin="0px 0px 7px 0px" font="normal 600 20px/1.5 --fontFamily-sansHelvetica" color="--light">
+								Rakesh Rasa
+							</Text>
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/1.5 --fontFamily-sans" color="#afb5bd">
+								Event Planner
+							</Text>
+						</Box>
+					</Box>
+				</Box>
 			</Box>
 		</Section>
 		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" background="rgb(44, 0, 81) url(https://uploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo.png?v=2023-12-22T01:11:48.094Z) 0% 0% /auto repeat scroll padding-box">
@@ -357,7 +443,6 @@ export default (() => {
 				>
 					Why partner with THARASA FOOD ADDA?
 					<br />
-					{"\n\n"}
 				</Text>
 			</Box>
 			<Box display="grid" grid-template-columns="repeat(3, 1fr)" grid-gap="32px 4%" md-grid-template-columns="1fr">
@@ -392,7 +477,6 @@ export default (() => {
 					>
 						Drive more profits
 						<br />
-						{"\n\n"}
 					</Text>
 					<Text
 						margin="0px 0px 0px 0px"
@@ -401,7 +485,7 @@ export default (() => {
 						lg-text-align="left"
 						flex="1 0 auto"
 					>
-						With products designed to help restaurants boost profits, THARASA can help you drive real results so you can take your business to the next level.{"\n\n"}
+						With products designed to help restaurants boost profits, THARASA can help you drive real results so you can take your business to the next level.
 					</Text>
 				</Box>
 				<Box
@@ -427,7 +511,6 @@ export default (() => {
 					<Text margin="0px 0px 18px 0px" color="--darkL2" font="--headline4" lg-text-align="left">
 						Enjoy choice and flexibility{" "}
 						<br />
-						{"\n\n"}
 					</Text>
 					<Text
 						margin="0px 0px 0px 0px"
@@ -436,7 +519,7 @@ export default (() => {
 						lg-text-align="left"
 						flex="1 0 auto"
 					>
-						With customizable solutions for all types of businesses — plus the ability to adjust your menu and operating hours in real time — you’re in control of your THARASA partnership.{"\n\n"}
+						With customizable solutions for all types of businesses — plus the ability to adjust your menu and operating hours in real time — you’re in control of your THARASA partnership.
 					</Text>
 				</Box>
 				<Box
@@ -462,7 +545,6 @@ export default (() => {
 					<Text margin="0px 0px 18px 0px" color="--darkL2" font="--headline4" lg-text-align="left">
 						Get dedicated support
 						<br />
-						{"\n\n"}
 					</Text>
 					<Text
 						margin="0px 0px 0px 0px"
@@ -471,7 +553,7 @@ export default (() => {
 						lg-text-align="left"
 						flex="1 0 auto"
 					>
-						Get support whenever you need it, including 24/7 live order support via phone and chat lines, account help, and direct communication with assigned drivers.{"\n\n"}
+						Get support whenever you need it, including 24/7 live order support via phone and chat lines, account help, and direct communication with assigned drivers.
 					</Text>
 				</Box>
 			</Box>
@@ -547,7 +629,7 @@ export default (() => {
 				/>
 				<Text margin="0px 0px 8px 0px" font="--lead" color="--indigo" sm-text-align="center" />
 				<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" lg-font="400 14px/1.6 &quot;Inter&quot;, sans-serif">
-					THARASA FOOD ADDA is an amazing food delivery alapp that I've been using for a while now. It's super convenient and has a wide range of restaurants to choose from. The user interface is really intuitive, making it easy to find and order delicious food. I would definitely recommend..{"\n\n"}
+					THARASA FOOD ADDA is an amazing food delivery alapp that I've been using for a while now. It's super convenient and has a wide range of restaurants to choose from. The user interface is really intuitive, making it easy to find and order delicious food. I would definitely recommend..
 				</Text>
 			</Box>
 			<Box
@@ -588,7 +670,7 @@ export default (() => {
 				/>
 				<Text font="--lead" color="--indigo" sm-text-align="center" margin="0px 0px 8px 0px" />
 				<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" lg-font="400 14px/1.6 &quot;Inter&quot;, sans-serif">
-					I recently tried THARASA FOOD ADDA for the first time, and I must express my satisfaction! The app's user-friendly interface facilitated smooth navigation across a diverse range of restaurants, while the extensive menu options allowed me to explore new culinary delights. The real-time order tracking kept me informed, and the prompt delivery added to the overall positive experience. meals.{"\n\n"}
+					I recently tried THARASA FOOD ADDA for the first time, and I must express my satisfaction! The app's user-friendly interface facilitated smooth navigation across a diverse range of restaurants, while the extensive menu options allowed me to explore new culinary delights. The real-time order tracking kept me informed, and the prompt delivery added to the overall positive experience. meals.
 				</Text>
 			</Box>
 			<Hr
@@ -639,7 +721,7 @@ export default (() => {
 				/>
 				<Text margin="0px 0px 8px 0px" font="--lead" color="--indigo" sm-text-align="center" />
 				<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" lg-font="400 14px/1.6 &quot;Inter&quot;, sans-serif">
-					THARASA FOOD ADD Best application for any Non-IT person as its very user-friendly application where everyone can easily order their food online, with good offers also friendly and polite riders...{"\n\n"}
+					THARASA FOOD ADD Best application for any Non-IT person as its very user-friendly application where everyone can easily order their food online, with good offers also friendly and polite riders...
 				</Text>
 			</Box>
 			<Box
@@ -677,7 +759,7 @@ export default (() => {
 				/>
 				<Text margin="0px 0px 8px 0px" font="--lead" color="--indigo" sm-text-align="center" />
 				<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" lg-font="400 14px/1.6 &quot;Inter&quot;, sans-serif">
-					.THARASA FOOD ADDA is a good platform for online food ordering and delivery from a variety of local restaurants. THARASA FOOD ADDA offers a variety of features; the quality of food,and good service ...{"\n\n"}
+					.THARASA FOOD ADDA is a good platform for online food ordering and delivery from a variety of local restaurants. THARASA FOOD ADDA offers a variety of features; the quality of food,and good service ...
 				</Text>
 			</Box>
 		</Section>
@@ -715,7 +797,7 @@ export default (() => {
 					lg-text-align="center"
 					lg-width="100%"
 				>
-					An effortlessly navigable app packed with a multitude of user-friendly features.{"\n\n"}
+					An effortlessly navigable app packed with a multitude of user-friendly features.
 				</Text>
 				<Box
 					display="flex"
@@ -1062,10 +1144,10 @@ export default (() => {
 			transition={"--opacityOut"}
 			quarkly-title={"Badge"}
 			text-decoration-line={"initial"}
-			href={"#"}
+			href={"https://quarkly.io/"}
 			target={"_blank"}
 		>
-			Made on lightworks
+			Made on Quarkly
 		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"6123949e957019001e284456"}>

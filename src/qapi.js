@@ -6,7 +6,10 @@ export default {
 			"name": "root",
 			"children": [
 				"657f8e4c009abe001f00aea4",
-				"657f8e4c009abe001f00aea8"
+				"657f8e4c009abe001f00aea8",
+				"65aab4bd8d4a0c00202a0ec4",
+				"65aaba69fdcae00021dd097f",
+				"65aabc59fdcae00021dd09e9"
 			]
 		},
 		"657f8e4c009abe001f00aea4": {
@@ -18,6 +21,27 @@ export default {
 			"id": "657f8e4c009abe001f00aea8",
 			"name": "index",
 			"pageUrl": "index"
+		},
+		"65aab4bd8d4a0c00202a0ec4": {
+			"id": "65aab4bd8d4a0c00202a0ec4",
+			"pageUrl": "privacy-policy",
+			"name": "Privacy Policy"
+		},
+		"65aaba69fdcae00021dd097f": {
+			"id": "65aaba69fdcae00021dd097f",
+			"pageUrl": "about-us",
+			"name": "About Us",
+			"seo": {
+				"favicon_32px": "https://uploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo_secondary.png?v=2023-12-22T01:11:40.356Z",
+				"favicon_apple_152px": "https://uploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo_secondary.png?v=2023-12-22T01:11:40.356Z",
+				"favicon_win10_270px": "https://uploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo_secondary.png?v=2023-12-22T01:11:40.356Z",
+				"background_win10": "#400048"
+			}
+		},
+		"65aabc59fdcae00021dd09e9": {
+			"id": "65aabc59fdcae00021dd09e9",
+			"pageUrl": "terms",
+			"name": "Terms & Conditions"
 		}
 	},
 	"mode": "production",

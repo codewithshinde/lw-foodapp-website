@@ -18,8 +18,8 @@
         "react-icons": "^3.9.0"
     },
     "scripts": {
-        "start": "react-scripts --openssl-legacy-provider start",
-        "build": "react-scripts --openssl-legacy-provider build",
+        "start": "react-scripts start",
+        "build": "npm run sitemap && CI=false react-scripts build",
         "build:ci": "cross-env CI=false npm run build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
