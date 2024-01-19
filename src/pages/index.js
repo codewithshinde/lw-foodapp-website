@@ -153,7 +153,7 @@ export default (() => {
 						lg-padding="12px 0px 12px 0px"
 					>
 						<LinkBox flex-direction="row" href="/index" display="flex" grid-gap="12px">
-							<Image src="https://uploads.quarkly.io/6457b971d28fe100213a0f35/images/flower-logo-template.svg?v=2023-08-06T19:34:51.878Z" display="block" width="36px" height="36px" />
+							<Image src="https://firebasestorage.googleapis.com/v0/b/hungrypanda-restaurant.appspot.com/o/application%2Flogo.png?alt=media&token=60c20f19-82dd-4b04-a45a-c94cee1d7eb2" display="block" width="36px" height="36px" />
 							<Text
 								margin="0"
 								md-margin="0px 0 0px 0"
@@ -163,7 +163,7 @@ export default (() => {
 								display="block"
 								lg-font="--lead"
 							>
-								Company
+								THARASAFOODADDA
 							</Text>
 						</LinkBox>
 					</Box>
@@ -213,7 +213,9 @@ export default (() => {
 						lg-margin="0px 0px 24px 0px"
 						lg-padding="12px 18px 13px 18px"
 						lg-font="--lead"
+						onClick = {() => window.open("http://tharasafoodadda.asyncteam.in", "_blank")}
 					>
+						
 						JOIN AS RESTAURANT PARTNER
 					</Link>
 					<Box
@@ -227,6 +229,7 @@ export default (() => {
 						align-items="center"
 						flex-wrap="wrap"
 						lg-margin="32px 0px 0px 0px"
+						
 					>
 						<SocialMedia
 							instagram="https://instagram.com/instagram"
