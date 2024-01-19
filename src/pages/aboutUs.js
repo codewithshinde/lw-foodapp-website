@@ -9,11 +9,11 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"about-us"} />
 		<Helmet>
 			<title>
-				Help for you — Healthcare without the system
+				Tharasafoodadda — Food delivery partner
 			</title>
-			<meta name={"description"} content={"Chat with a doctor right from your phone, all day and night. No waiting room or appointment needed."} />
-			<meta property={"og:title"} content={"Help for you — Healthcare without the system"} />
-			<meta property={"og:description"} content={"Chat with a doctor right from your phone, all day and night. No waiting room or appointment needed."} />
+			<meta name={"description"} content={"Food delivery partner right when you needed"} />
+			<meta property={"og:title"} content={"Tharasafoodadda — Food delivery partner"} />
+			<meta property={"og:description"} content={"Food delivery partner right when you needed"} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/6123949e957019001e284458/images/OGimage.png?v=2021-09-21T16:25:40.647Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo_secondary.png?v=2023-12-22T01:11:40.356Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo_secondary.png?v=2023-12-22T01:11:40.356Z"} />
@@ -249,10 +249,10 @@ export default (() => {
 			transition={"--opacityOut"}
 			quarkly-title={"Badge"}
 			text-decoration-line={"initial"}
-			href={"https://quarkly.io/"}
+			href={"#"}
 			target={"_blank"}
 		>
-			Made on Quarkly
+			Powered by lightworks
 		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"6123949e957019001e284456"}>
