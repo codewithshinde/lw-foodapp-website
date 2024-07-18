@@ -9,10 +9,10 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"about-us"} />
 		<Helmet>
 			<title>
-				Tharasafoodadda — Food delivery partner
+				DELIVERY EXPRESS — Food delivery partner
 			</title>
 			<meta name={"description"} content={"Food delivery partner right when you needed"} />
-			<meta property={"og:title"} content={"Tharasafoodadda — Food delivery partner"} />
+			<meta property={"og:title"} content={"DELIVERY EXPRESS — Food delivery partner"} />
 			<meta property={"og:description"} content={"Food delivery partner right when you needed"} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/6123949e957019001e284458/images/OGimage.png?v=2021-09-21T16:25:40.647Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/657f8e4c009abe001f00ae90/images/logo_secondary.png?v=2023-12-22T01:11:40.356Z"} type={"image/x-icon"} />
@@ -71,7 +71,7 @@ export default (() => {
 				text-align="left"
 				white-space="normal"
 			>
-				THARASA FOOD ADDA is a cutting-edge delivery service accessible through mobile applications, connecting customers with a diverse array of restaurants and retailers. Our platform provides a seamless experience for users to explore menus and food offerings, placing orders effortlessly and having them delivered directly to their doorstep.
+				DELIVERY EXPRESS is a cutting-edge delivery service accessible through mobile applications, connecting customers with a diverse array of restaurants and retailers. Our platform provides a seamless experience for users to explore menus and food offerings, placing orders effortlessly and having them delivered directly to their doorstep.
 				<br />
 				<br />
 				<Strong
@@ -117,7 +117,7 @@ export default (() => {
 					Convenience Redefined:
 				</Strong>
 				<br />
-				Customers can order their favorite food or groceries anytime, anywhere, using their mobile devices or tablets. Whether it's fast food or everyday essentials, THARASA FOOD ADDA ensures a convenient and accessible ordering experience.
+				Customers can order their favorite food or groceries anytime, anywhere, using their mobile devices or tablets. Whether it's fast food or everyday essentials, DELIVERY EXPRESS ensures a convenient and accessible ordering experience.
 				<br />
 				<br />
 				<Strong
@@ -165,7 +165,7 @@ export default (() => {
 					New Heights of Convenience:
 				</Strong>
 				<br />
-				In addition to restaurant deliveries, THARASA FOOD ADDA introduces grocery delivery services. Grocery stores partnering with our platform offer unprecedented convenience to shoppers, enabling them to order groceries at their fingertips.
+				In addition to restaurant deliveries, DELIVERY EXPRESS introduces grocery delivery services. Grocery stores partnering with our platform offer unprecedented convenience to shoppers, enabling them to order groceries at their fingertips.
 				<br />
 				<br />
 				<Strong
@@ -178,7 +178,7 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					Why Choose THARASA FOOD ADDA:
+					Why Choose DELIVERY EXPRESS:
 				</Strong>
 				<br />
 				<Strong
@@ -229,7 +229,7 @@ export default (() => {
 				Experience the future of grocery shopping with our innovative grocery delivery feature, enhancing the convenience of your everyday life.
 				<br />
 				<br />
-				Join THARASA FOOD ADDA for a revolutionized approach to food and grocery delivery. Explore endless possibilities and elevate your dining and shopping experiences with us.{"\n\n"}
+				Join DELIVERY EXPRESS for a revolutionized approach to food and grocery delivery. Explore endless possibilities and elevate your dining and shopping experiences with us.{"\n\n"}
 			</Text>
 		</Section>
 		<Link

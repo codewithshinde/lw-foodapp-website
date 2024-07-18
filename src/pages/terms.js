@@ -9,14 +9,14 @@ export default () => {
     <Theme theme={theme}>
       <GlobalQuarklyPageStyles pageUrl={"terms"} />
       <Helmet>
-        <title>Tharasafoodadda — Food delivery partner</title>
+        <title>DELIVERY EXPRESS — Food delivery partner</title>
         <meta
           name={"description"}
           content={"Food delivery partner right when you needed"}
         />
         <meta
           property={"og:title"}
-          content={"Tharasafoodadda — Food delivery partner"}
+          content={"DELIVERY EXPRESS — Food delivery partner"}
         />
         <meta
           property={"og:description"}
@@ -88,7 +88,7 @@ export default () => {
         >
           <br />
           <br />
-          Welcome to THARASA FOOD ADDA! Before using our services, please
+          Welcome to DELIVERY EXPRESS! Before using our services, please
           carefully read the following terms and conditions. By accessing or
           using our platform, you agree to be bound by these terms. If you
           disagree with any part of these terms, you may not use our services.
@@ -107,7 +107,7 @@ export default () => {
             1. Service Usage:
           </Strong>
           <br />
-          THARASA FOOD ADDA provides a platform for users to access food and
+          DELIVERY EXPRESS provides a platform for users to access food and
           grocery delivery services.
           <br />
           <br />
@@ -182,7 +182,7 @@ export default () => {
             5. Delivery:
           </Strong>
           <br />
-          THARASA FOOD ADDA aims to provide timely and reliable delivery
+          DELIVERY EXPRESS aims to provide timely and reliable delivery
           services.
           <br />
           Delivery times may vary based on location and demand.
@@ -237,7 +237,7 @@ export default () => {
             8. Privacy:
           </Strong>
           <br />
-          THARASA FOOD ADDA values user privacy. Please refer to our Privacy
+          DELIVERY EXPRESS values user privacy. Please refer to our Privacy
           Policy for details.
           <br />
           <br />
@@ -270,7 +270,7 @@ export default () => {
           >
             10. Modification of Terms:
           </Strong>
-          - THARASA FOOD ADDA reserves the right to modify these terms at any
+          - DELIVERY EXPRESS reserves the right to modify these terms at any
           time.
           <br />
           <br />
@@ -286,7 +286,7 @@ export default () => {
           >
             11. Termination:
           </Strong>
-          - THARASA FOOD ADDA may terminate or suspend access to our services
+          - DELIVERY EXPRESS may terminate or suspend access to our services
           without prior notice.
           <br />
           <br />
@@ -306,7 +306,7 @@ export default () => {
           laws of [Your Country/Region].
           <br />
           <br />
-          By using THARASA FOOD ADDA, you agree to comply with these terms and
+          By using DELIVERY EXPRESS, you agree to comply with these terms and
           conditions. If you have any questions or concerns, please contact our
           customer support.
         </Text>

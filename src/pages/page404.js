@@ -9,10 +9,10 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"404"} />
 		<Helmet>
 			<title>
-				Tharasafoodadda — Food delivery partner
+				DELIVERY EXPRESS — Food delivery partner
 			</title>
 			<meta name={"description"} content={"Food delivery partner right when you needed"} />
-			<meta property={"og:title"} content={"Tharasafoodadda — Food delivery partner"} />
+			<meta property={"og:title"} content={"DELIVERY EXPRESS — Food delivery partner"} />
 			<meta property={"og:description"} content={"Food delivery partner right when you needed"} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/6123949e957019001e284458/images/OGimage.png?v=2021-09-21T16:25:40.647Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/6123949e957019001e284458/images/favicon.svg?v=2021-09-21T16:18:29.306Z"} type={"image/x-icon"} />

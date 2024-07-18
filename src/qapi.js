@@ -53,10 +53,10 @@ export default {
 			"favicon_32px": "https://uploads.quarkly.io/6123949e957019001e284458/images/favicon.svg?v=2021-09-21T16:18:29.306Z",
 			"favicon_win10_270px": "https://uploads.quarkly.io/6123949e957019001e284458/images/favicon270.svg?v=2021-09-21T16:18:07.731Z",
 			"background_win10": "#000848",
-			"og:title": "Tharasafoodadda",
+			"og:title": "DELIVERY EXPRESS",
 			"og:description": "Food delivery partner right when you needed",
 			"og:image": "https://uploads.quarkly.io/6123949e957019001e284458/images/OGimage.png?v=2021-09-21T16:25:40.647Z",
-			"title": "Tharasafoodadda",
+			"title": "DELIVERY EXPRESS",
 			"description": "Food delivery partner right when you needed"
 		}
 	}

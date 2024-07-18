@@ -17,10 +17,10 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				Tharasafoodadda — Food delivery partner
+				DELIVERY EXPRESS — Food delivery partner
 			</title>
 			<meta name={"description"} content={"Food delivery partner right when you needed"} />
-			<meta property={"og:title"} content={"Tharasafoodadda — Food delivery partner"} />
+			<meta property={"og:title"} content={"DELIVERY EXPRESS — Food delivery partner"} />
 			<meta property={"og:description"} content={"Food delivery partner right when you needed"} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/6123949e957019001e284458/images/OGimage.png?v=2021-09-21T16:25:40.647Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/6123949e957019001e284458/images/favicon.svg?v=2021-09-21T16:18:29.306Z"} type={"image/x-icon"} />
@@ -134,7 +134,7 @@ export default (() => {
 								lg-font="--headline3"
 								md-font="--headline4"
 							>
-								THARASAFOODADDA
+								DELIVERY EXPRESS
 							</Text>
 						</LinkBox>
 					</Box>
@@ -283,7 +283,7 @@ export default (() => {
 						sm-margin="0px 0 0px 0"
 						display="block"
 					>
-						THARASAFOODADDA
+						DELIVERY EXPRESS
 					</Text>
 				</LinkBox>
 			</Box>
@@ -395,7 +395,7 @@ export default (() => {
 							sizes="(max-width: 460px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
 						<Text margin="0px 0px 30px 0px" color="#e8e3e3" sm-margin="0px 0px 20px 0px" font="--base">
-							THARASA FOOD ADDA is a cutting-edge delivery service accessible through mobile applications, connecting customers with a diverse array of restaurants and retailers. Our platform provides a seamless experience for users to explore menus and food offerings, placing orders effortlessly and having them delivered directly to their doorstep.{"\n\n"}
+							DELIVERY EXPRESS is a cutting-edge delivery service accessible through mobile applications, connecting customers with a diverse array of restaurants and retailers. Our platform provides a seamless experience for users to explore menus and food offerings, placing orders effortlessly and having them delivered directly to their doorstep.{"\n\n"}
 						</Text>
 					</Box>
 					<Box
@@ -441,7 +441,7 @@ export default (() => {
 					text-align="center"
 					background="rgba(0, 0, 0, 0)"
 				>
-					Why partner with THARASA FOOD ADDA?
+					Why partner with DELIVERY EXPRESS?
 					<br />
 				</Text>
 			</Box>
@@ -629,7 +629,7 @@ export default (() => {
 				/>
 				<Text margin="0px 0px 8px 0px" font="--lead" color="--indigo" sm-text-align="center" />
 				<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" lg-font="400 14px/1.6 &quot;Inter&quot;, sans-serif">
-					THARASA FOOD ADDA is an amazing food delivery alapp that I've been using for a while now. It's super convenient and has a wide range of restaurants to choose from. The user interface is really intuitive, making it easy to find and order delicious food. I would definitely recommend..
+					DELIVERY EXPRESS is an amazing food delivery alapp that I've been using for a while now. It's super convenient and has a wide range of restaurants to choose from. The user interface is really intuitive, making it easy to find and order delicious food. I would definitely recommend..
 				</Text>
 			</Box>
 			<Box
@@ -670,7 +670,7 @@ export default (() => {
 				/>
 				<Text font="--lead" color="--indigo" sm-text-align="center" margin="0px 0px 8px 0px" />
 				<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" lg-font="400 14px/1.6 &quot;Inter&quot;, sans-serif">
-					I recently tried THARASA FOOD ADDA for the first time, and I must express my satisfaction! The app's user-friendly interface facilitated smooth navigation across a diverse range of restaurants, while the extensive menu options allowed me to explore new culinary delights. The real-time order tracking kept me informed, and the prompt delivery added to the overall positive experience. meals.
+					I recently tried DELIVERY EXPRESS for the first time, and I must express my satisfaction! The app's user-friendly interface facilitated smooth navigation across a diverse range of restaurants, while the extensive menu options allowed me to explore new culinary delights. The real-time order tracking kept me informed, and the prompt delivery added to the overall positive experience. meals.
 				</Text>
 			</Box>
 			<Hr
@@ -759,7 +759,7 @@ export default (() => {
 				/>
 				<Text margin="0px 0px 8px 0px" font="--lead" color="--indigo" sm-text-align="center" />
 				<Text margin="0px 0px 0px 0px" font="--textBase" color="--darkL1" lg-font="400 14px/1.6 &quot;Inter&quot;, sans-serif">
-					.THARASA FOOD ADDA is a good platform for online food ordering and delivery from a variety of local restaurants. THARASA FOOD ADDA offers a variety of features; the quality of food,and good service ...
+					.DELIVERY EXPRESS is a good platform for online food ordering and delivery from a variety of local restaurants. DELIVERY EXPRESS offers a variety of features; the quality of food,and good service ...
 				</Text>
 			</Box>
 		</Section>
